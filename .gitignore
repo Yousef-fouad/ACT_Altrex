@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+
+# Marimo notebooks cache
+__marimo__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# DuckDB databases
+*.duckdb*
+
+# Confidential accounting data
+/data/
+/private_data/
+
+# Generated accounting reports
+/outputs/
+/reports/
+
+# Excel temporary files
+~$*.xlsx
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# VS Code local settings
+.vscode/
+
+# Testing and debugging
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
