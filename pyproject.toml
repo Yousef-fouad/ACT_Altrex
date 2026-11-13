@@ -1,0 +1,17 @@
+[project]
+name = "act-altrex"
+version = "0.1.0"
+description = "AI-Assisted Accounting Analytics with Python"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "marimo",
+    "pandas",
+    "numpy",
+    "openpyxl",
+    "duckdb",
+    "matplotlib",
+    "altair",
+    "python-dotenv",
+]
